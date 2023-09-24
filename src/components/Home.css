@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.imgPresent {
+    width: 450px;
+    height: 450px;
+}
+
+.topBanner {
+    padding: 30px 40px;
+    width: 100%;
+    background: #ECD5B6;
+}
+
+.topBanner .container {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topBanner .container .detail {
+    margin-top: 8%;
+    margin-left: 30px;
+}
+
+.topBanner .container .detail h2 {
+    font-size: 52px;
+    color: #010f1c;
+    margin-right: 50%;
+    margin-bottom: 40px;
+}
+
+.topBanner .container .detail .link {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color:#010f1c;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.topBanner .container .detail .link:hover {
+    background: #AA514D;
+    color: #fff;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.productType {
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.productType .container-p {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productType .container-p .box {
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+.productType .container-p .box .imgBox  {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.productType .container-p .box .imgBox .image {
+    transition: 0.5s;
+}
+
+.productType .container-p .box .imgBox:hover .image {
+    transform: scale(1.3);
+}
+
+.productType .container-p .box .detail {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.productType .container-p .box .detail p {
+    margin-top: 10px;
+    color: #010f1c;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
